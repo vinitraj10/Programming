@@ -12,9 +12,10 @@ public class ComInterest{
 		System.out.println("Enter the Time Period");
 		t=input.nextInt();
 		for(int i=1;i<=t;i++){
-			temp=temp*(1+r);
+			a=p*Math.pow(1+r,i);
+			System.out.println("After " + i + " Years " + "Compund Interest Will Be " +a);
 		}
-		a=p*(temp);
-		System.out.println("The Compound Interest On the Following Data is " + a);
+		
+
 	}
 }
