@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exp{
+public class Pxp{
   public static void main(String args[]){
     Scanner input = new Scanner(System.in);
     double num,pow=1;
