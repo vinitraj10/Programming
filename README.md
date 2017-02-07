@@ -1,6 +1,6 @@
 #Java-Basic Codes
-#For compilation
-<h1>javac xyz.java</h1><br />
+For compilation
+<h1>javac xyz.java</h1>
 <h1>java xyz</h1>
 In this Repository I tried To learn A new Programming Language in a very exclusive manner,Usually I implemented all the basic Programs in java on my day to day learning skills.
 The repository Conatins Following Folders:-
