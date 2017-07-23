@@ -1,18 +1,23 @@
 class ObjectOrientedConcept{
 	public static void main(String args[]){
-		fact obj = new fact();
-		obj.fact();
-		obj.display();
+		greater obj = new greater();
+		obj.compare();
 	}
 }
-class fact{
-	int num=5;
-	long fact=1;
-	void fact(){
-		for(int i =1;i<=num;i++)
-			fact*=i;
+class greater{
+	int a=1,b=2,c=3;
+	void compare(){
+		display obj2 = new display();
+		if(a>b&&a>c)
+			obj2.display(a);
+		else if(b>a&&b>c)
+			obj2.display(b);
+		else
+			obj2.display(c);
 	}
-	void display(){
-		System.out.println("Factorial Of " + num + " is "+ fact);
+}
+class display{
+	void display(int x){
+		System.out.println(x +" Is the Largest Among The Three Integers");
 	}
 }
