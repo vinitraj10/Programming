@@ -4,4 +4,4 @@
 *.war
 *.ear
 
-
+.idea
