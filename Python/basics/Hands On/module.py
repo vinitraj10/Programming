@@ -1,0 +1,1 @@
+print('Module imported')
